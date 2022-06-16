@@ -14,6 +14,6 @@ namespace coup
     {
         public:
             Assassin(Game &game, string);
-            void Assassin_coup (Player &player);
+            void coup (Player &player);
     };
 }

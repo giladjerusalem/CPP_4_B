@@ -15,7 +15,7 @@ namespace coup
     {
         public:
             Ambassador(Game &game, string);
-            void transfer(Player &player1, Player &player2);
+            void transfer(Player&, Player&);
             void block(Player &player);
     };
 }
